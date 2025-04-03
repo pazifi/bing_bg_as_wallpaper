@@ -64,5 +64,5 @@ for (i=0;i<Desktops.length;i++) {
         d.currentConfigGroup = Array(\"Wallpaper\",
                                     \"org.kde.image\",
                                     \"General\");
-        d.writeConfig(\"Image\", \"file://${PICTURE}\");
+        d.writeConfig(\"Image\", \"file://${ARCH_DIR}${PICTURE}\");
 }"
